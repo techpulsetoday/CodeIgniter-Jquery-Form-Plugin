@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="form-group">
                 <label class= "control-label col-sm-2" for="query">Query:</label>
                 <div class="col-sm-10">
-                    <?php echo form_textarea('query', set_value('query'), array('class' => 'form-control', 'name' => 'query', 'id' => 'query', 'rows' => '3', 'placeholder' => 'Message')); ?>
+                    <?php echo form_textarea('query', set_value('query'), array('class' => 'form-control', 'name' => 'query', 'id' => 'query', 'rows' => '3', 'placeholder' => 'Query')); ?>
                 </div>
             </div>
             <div class="form-group">
